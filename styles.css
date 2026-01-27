@@ -1,0 +1,305 @@
+body{
+    background: #eaf7f2;
+    
+    
+    }
+
+header,footer{
+    background: #265529;
+    text-align: center;
+    padding: 20px 0;
+    padding: 20px 0;
+
+}
+
+div aside img{padding-top: 60px;}
+
+article img{
+            width: 300px;
+            /* height:500px; */
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        margin:20px;} 
+
+        section div img{
+            width:425px;
+            height:300px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        margin:20px;} 
+
+
+aside article img{
+            width: 300px;
+            height: 300px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+       } 
+
+article a {font-family: "Eagle Lake", serif;
+        color: rgb(229, 247, 233);
+        font-size: 32px;
+        border-radius: 45px;
+        background-color: #265529;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 20px 50px;
+        padding-top:10px;
+                              
+}
+
+article{display:flex;
+    flex-direction:column;
+    align-items: center ;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+section{/* display: flex; */
+    flex-direction: column;
+    
+}
+
+aside{display: flex;
+    flex-direction: column;
+    
+}
+
+article h2{font-family: "Eagle Lake", serif;}
+
+header img{
+
+    padding:0;
+}
+header h1{
+    font-family: "Splash", cursive;
+    font-size: 65px;
+    color:#ebf8ed;
+    text-align:center;
+}
+
+
+
+header h2{
+    padding: 0;
+    font-family: "Splash", cursive;
+    font-size: 45px;
+    color:#ebf8ed;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+main{gap:50px;
+display: flex;
+flex-direction: column;
+}
+section{flex-direction:row;
+justify-content: center;}
+
+aside{flex-direction:row;
+justify-content: center;}
+
+
+
+ol{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    color:#265529;
+}
+
+address{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    color:#ebf8ed;
+}
+
+address p{color:#ebf8ed}
+
+
+h1
+{
+    margin: auto;
+}
+
+h2{ 
+    margin: 0;
+    padding: 0;
+    
+    font-size:35px;
+    color:#265529;
+    /* background-color: #219c6d; */
+    text-align:left;
+    padding-bottom: 10px;
+}
+
+aside{display: flex;
+justify-content: center;}
+/* aside img{align-items: center;
+            padding-top: 50px;
+        justify-content: center;} */
+h6{ 
+    margin: 0;
+    padding-top: 50px;
+    
+    font-size:50px;
+    color:#265529;
+    /* background-color: #219c6d; */
+    text-align:left;
+    padding-bottom: 20px;
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-top:20px;
+    font-family: "Eagle Lake", serif;
+    font-size:23px;
+    color:#265529;
+}
+
+
+
+
+h4{color:#265529;
+  font-size:30px;
+ 
+}
+
+article p{ align-items: left;
+    text-align: left;
+    margin: 10px;
+    padding-left: 500px;
+    padding-right:500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    color:#265529;
+}
+
+p{ align-items: left;
+    text-align: left;
+    padding-top: 10px;
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color:#265529;}
+
+h5{color:#265529;
+  font-size:20px;
+  font-weight: bold;}
+
+a{
+    font-family: "Eagle Lake", serif;
+        color:#265529;
+        font-size: 25px;
+        
+        
+        
+        padding: 20px 20px;
+        padding-top:10px;
+}
+
+p{padding-bottom: 25px;}
+
+.header1{display:none;}
+
+/* @media only screen and (min-width: 600px){
+    footer, #container {
+        max-width: 1020px;
+        margin: auto;
+    }
+    #container {
+        display: flex;
+    }
+    nav {
+        width: 33.3333%;
+    }
+    main {
+        width: 66.6666%;
+    }
+    .header2{display:block;}
+  .header1{display:none;}
+    /**aside img {
+        display: block;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+       }**/
+    
+    
+footer{display:flex;
+justify-content: center;
+text-align: center;}
+
+
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 1500px;
+    height: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .title {padding-top:100px;}
+   
+    }
+    main {
+        /* width: 80%;  */
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        padding: 100px;
+        padding-top:50px;
+        
+    }
+    
+    
+    header{display:flex;
+    justify-content: center;
+    
+    } 
+
+    header h1{
+    
+    font-family: "Eagle Lake", serif;
+    font-size: 85px;
+    color:#ebf8ed;
+    text-align:center;
+}
+
+    header h2{
+        padding: 0;
+        font-family:  "Eagle Lake", serif;
+        font-size: 65px;
+        color:#ebf8ed;
+        text-align:center;
+    }
+  .header2{display:none;}
+  .header1{display:block;}
+  
+  
+    ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* border-top: 2px solid #4de0a8; */
+    
+}
+  
+
